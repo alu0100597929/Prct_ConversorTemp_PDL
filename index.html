@@ -1,0 +1,22 @@
+<html>
+   <head>
+       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       <title>Conversor de Temperaturas en JavaScript</title>
+       <link href="global.css" rel="stylesheet" type="text/css">
+       <script type="text/javascript" src="temperaturaJM.js"> </script>
+   </head>
+   
+   <body>
+      <h1>Conversor de Temperaturas</h1>
+      <table>
+          <tr>
+              <th>Introduzca temperatura:<br><small>ejemplo: 10C, 25F, -4.8c</small></th>
+              <td> <input id="tempEntrada" onchange="convertir();"> </td>
+          </tr>
+          <tr>
+              <th>Temperatura equivalente:</th>
+              <td> <span class="output" id="tempSalida"></span> </td>
+          </tr>
+      </table>
+   </body>
+</html>
